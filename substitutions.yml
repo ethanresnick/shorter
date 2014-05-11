@@ -1,0 +1,208 @@
+Redundencies:
+  - phrase: (prior|previous) history
+    substitutions: [history]
+
+  - phrase: unconfirmed rumor
+    substitutions: [rumor]
+
+  - phrase: (past|prior) memories
+    substitutions: [memories]
+
+  - phrase: free gift
+    substitutions: [gift]
+
+  - phrase: (end|final) (result|outcome)
+    substitutions: [result, outcome]
+
+  - phrase: basic fundamentals
+    substitutions: [fundamentals]
+
+  - phrase: twelve midnight
+    substitutions: [midnight]
+
+  - phrase: unexpected surprise
+    substitutions: [surprise]
+
+  - phrase: true (facts?)
+    substitutions: [$1]
+
+  - phrase: future plans
+    substitutions: [plans]
+
+  - phrase: (large|small) in size
+    substitutions: [$1]
+
+  - phrase: (heavy|light) in weight
+    substitutions: [$1]
+
+  - phrase: often times
+    substitutions: [often, usually]
+
+  - phrase: most of the time
+    substitutions: [usually]
+
+  - phrase: (round|square|rectangular) in shape
+    substitutions: [$1]
+
+  - phrase: (shiny|dull|beautiful|handsome) in appearance
+    substitutions: [$1]
+
+  - phrase: (honest|dishonest) in character
+    substitutions: [$1]
+
+  - phrase: in a (confused|tired|sad|distressed|happy) state
+    substitutions: [$1]
+
+  - phrase: specific (example|instance)
+    substitutions: [example, instance]
+
+  - phrase: the (month|year) of ([A-Za-z0-9]+)
+    substitutions: [$1]
+
+  - phrase: successfully (accomplish|complete|finish)
+    substitutions: [$1]
+
+  - phrase: terrible tragedy
+    substitutions: [tragedy]
+
+  - phrase: irrational bias
+    substitutions: [bias]
+
+# Airline-isms Courtesy of George Carlin
+  - phrase: complete(ly)? stop
+    substitutions: [stop]
+
+  - phrase: final destination
+    substitutions: [destination]
+
+  - phrase: (your|my) personal belongings
+    substitutions: [$1 belongings]
+
+
+Verbose Phrases:
+  - phrase: until such time as
+    substitutions: [until]
+
+  - phrase: (of a)? (bright|dull) color
+    substitutions: [$2]
+
+  - phrase: the (economics|psychology) field
+    substitutions: [$1]
+
+  - phrase: it is imperative that we
+    substitutions: [we must]
+
+  - phrase: similar to
+    substitutions: [like]
+
+  - phrase: with the exception of
+    substitutions: [except, except for]
+
+  - phrase: in (order|an effort) to
+    substitutions: [to]
+
+  - phrase: It (seems|appears) to me
+    substitutions: [I think, I believe, presumably]
+
+  - phrase: It should be recognized
+    substitutions: [I think, I believe, presumably]
+
+  - phrase: It (must|will) be recognized that
+    substitutions: [recognize, one must recognize, presumably]
+
+  - phrase: based off of
+    substitutions: [from]
+
+  - phrase: I will set out to describe
+    substitutions: [I will describe]
+
+  - phrase: more unlikely
+    substitutions: [less likely]
+
+  - phrase: (know|knew) for a fact
+    substitutions: [$1]
+
+  - phrase: (your|my|our) lived experiences
+    substitutions: [$1 experiences]
+
+  - phrase: (years?) of age
+    substitutions: [$1 old]
+
+  - phrase: due to the fact that
+    substitutions: [because, as]
+
+  - phrase: is applicable to
+    substitutions: [applies to]
+
+  - phrase: seems to be
+    substitutions: [seems]
+
+  - phrase: a multitude of
+    substitutions: [many]
+
+  - phrase: of significance
+    substitutions: [significant]
+
+
+
+Incorrect Grammar:
+  - phrase: (try|be sure) and
+    substitutions: [$1 to]
+
+  - phrase: so typically
+    substitutions: [so often, typically]
+
+  - phrase: irregardless
+    substitutions: [regardless]
+
+Passive Voice:
+
+# http://garbl.home.comcast.net/~garbl/stylemanual/phrases.htm
+
+# various differences
+# each individual _______
+# important essentials
+# sudden crisis
+
+# <p>1. <strong>a number of</strong>: some, many<br>
+# 2. <strong>afford an opportunity</strong>: allow, let<br>
+# 3. <strong>an appreciable number of</strong>: many<br>
+# 4. <strong>as a means of</strong>: to<br>
+# 5. <strong>as prescribed by</strong>: in, under<br>
+# 6. <strong>at the present time</strong>: now<br>
+# 7. <strong>by means of</strong>: by, with<br>
+# 8. <strong>comply with</strong>: follow<br>
+# 10. <strong>during the period of</strong>: during<br>
+# 11. <strong>for a period of</strong>: for<br>
+# 12. <strong>has a requirement for</strong>: needs, requires<br>
+# 13. <strong>have an adverse effect on</strong>: hurt, set back<br>
+# 14. <strong>in a timely manner</strong>: on time, promptly<br>
+# 15. <strong>in accordance with</strong>: by, following, per, under<br>
+# 16. <strong>in addition</strong>: also, besides, too<br>
+# 18. <strong>in close proximity</strong>: near<br>
+# 19. <strong>in lieu of</strong>: instead of<br>
+# 20. <strong>in order for</strong>: for<br>
+# 21. <strong>in order that</strong>: so<br>
+# 23. <strong>in regard to</strong>: about, concerning, on<br>
+# 24. <strong>in relation to</strong>: about, to, with<br>
+# 25. <strong>in the amount of</strong>: amounting to, for<br>
+# 26. <strong>in the event of</strong>: if<br>
+# 27. <strong>in the near future</strong>: shortly, soon<br>
+# 28. <strong>in the process of</strong>: (omit without replacement)<br>
+# 29. <strong>in view of</strong>: because, since<br>
+# 31. <strong>is authorized to</strong>: can, may<br>
+# 32. <strong>is in consonance with</strong>: agrees with follows<br>
+# 33. <strong>is responsible</strong> for: handles<br>
+# 34. <strong>it is essential that [one]</strong>: [one] must<br>
+# 35. <strong>it is incumbent upon [one] to</strong>: [one] should, [one] must<br>
+# 36. <strong>it is requested that you</strong>: please<br>
+# 37. <strong>pertaining to</strong>: about, of, on<br>
+# 38. <strong>provide(s) guidance for/to</strong>: guides<br>
+# 39. <strong>relative to</strong>: about, on<br>
+# 40. <strong>set forth in</strong>: in<br>
+# 43. <strong>take action to</strong>: (omit without replacement)<br>
+# 45. <strong>the use of</strong>: (omit without replacement)<br>
+# 46. <strong>time period:</strong> period, time<br>
+# 47. <strong>under the provisions of</strong>: under<br>
+# 49. <strong>with reference to</strong>: about<br>
+# 50. 
