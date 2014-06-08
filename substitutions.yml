@@ -68,6 +68,13 @@ Redundencies:
   - phrase: irrational bias
     substitutions: [bias]
 
+  - phrase: live my life
+    substitutions: [live]
+
+  # "the fact is that x" -> "x"
+  - phrase: the fact is that
+    substitutions: [""]
+
 # Airline-isms Courtesy of George Carlin
   - phrase: complete(ly)? stop
     substitutions: [stop]
@@ -77,7 +84,6 @@ Redundencies:
 
   - phrase: (your|my) personal belongings
     substitutions: [$1 belongings]
-
 
 Verbose Phrases:
   - phrase: until such time as
@@ -143,6 +149,8 @@ Verbose Phrases:
   - phrase: of significance
     substitutions: [significant]
 
+  - phrase: there goes in the world a notion
+    substitutions: [some think, some believe]
 
 
 Incorrect Grammar:
@@ -155,7 +163,15 @@ Incorrect Grammar:
   - phrase: irregardless
     substitutions: [regardless]
 
+
 Passive Voice:
+
+Just Bad:
+  - phrase: I might (say|argue)
+  - substitutions: [I believe, I argue]
+
+  - phrase: it might be (said|argued)
+  - substitutions: [critics might argue, opponents might say]
 
 # http://garbl.home.comcast.net/~garbl/stylemanual/phrases.htm
 
