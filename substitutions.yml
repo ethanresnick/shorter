@@ -11,7 +11,7 @@ Redundencies:
   - phrase: free gift
     substitutions: [gift]
 
-  - phrase: (end|final) (result|outcome)
+  - phrase: (end|final|ultimate) (result|outcome)
     substitutions: [result, outcome]
 
   - phrase: basic fundamentals
@@ -26,8 +26,8 @@ Redundencies:
   - phrase: true (facts?)
     substitutions: [$1]
 
-  - phrase: future plans
-    substitutions: [plans]
+  - phrase: future (plans?)
+    substitutions: [$1]
 
   - phrase: (large|small) in size
     substitutions: [$1]
@@ -71,9 +71,42 @@ Redundencies:
   - phrase: live my life
     substitutions: [live]
 
+  - phrase: new record
+    substitutions: [record]
+
+  - phrase: old adage
+    substitutions: [adage]
+
+  - phrase: original founder
+    substitutions: [founder]
+
+  - phrase: absolutely conclusive
+    substitutions: [conclusive]
+
+  - phrase: hired mercenary
+    substitutions: [mercenary]
+
+  - phrase: meaningless gibberish
+    substitutions: [gibberish]
+
+  - phrase: mutual cooperation
+    substitutions: [cooperation]
+
+  - phrase: organic life
+    substitutions: [life]
+
+  - phrase: personal (friend|opinion)
+    substitutions: [$1]
+
+  - phrase: present incumbent
+    substitutions: [incumbent]
+
   # "the fact is that x" -> "x"
   - phrase: the fact is that
     substitutions: [""]
+
+  - phrase: proved conclusively
+    substitutions: [proved]
 
 # Airline-isms Courtesy of George Carlin
   - phrase: complete(ly)? stop
@@ -152,6 +185,14 @@ Verbose Phrases:
   - phrase: there goes in the world a notion
     substitutions: [some think, some believe]
 
+  - phrase: determined the truth of
+    substitutions: [determined, determined whether]
+
+  - phrase: proved of benefit to
+    substitutions: [proved helpful to, helped]
+
+  - phrase: established conclusive evidence (of|that)
+    substitutions: [proved]
 
 Incorrect Grammar:
   - phrase: (try|be sure) and
@@ -195,7 +236,7 @@ Just Bad:
 # 14. <strong>in a timely manner</strong>: on time, promptly<br>
 # 15. <strong>in accordance with</strong>: by, following, per, under<br>
 # 16. <strong>in addition</strong>: also, besides, too<br>
-# 18. <strong>in close proximity</strong>: near<br>
+# 18. <strong>in close proximity</strong>: near, nearby<br>
 # 19. <strong>in lieu of</strong>: instead of<br>
 # 20. <strong>in order for</strong>: for<br>
 # 21. <strong>in order that</strong>: so<br>
@@ -221,4 +262,4 @@ Just Bad:
 # 46. <strong>time period:</strong> period, time<br>
 # 47. <strong>under the provisions of</strong>: under<br>
 # 49. <strong>with reference to</strong>: about<br>
-# 50. 
+# 50.
