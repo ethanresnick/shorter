@@ -108,7 +108,7 @@ Redundencies:
   - phrase: proved conclusively
     substitutions: [proved]
 
-# Airline-isms Courtesy of George Carlin
+  # Airline-isms Courtesy of George Carlin
   - phrase: complete(ly)? stop
     substitutions: [stop]
 
@@ -193,6 +193,9 @@ Verbose Phrases:
 
   - phrase: established conclusive evidence (of|that)
     substitutions: [proved]
+
+  - phrase: of importance
+    substitutions: [important]
 
 Incorrect Grammar:
   - phrase: (try|be sure) and
