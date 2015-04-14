@@ -207,6 +207,10 @@ Incorrect Grammar:
   - phrase: irregardless
     substitutions: [regardless]
 
+Complicated Words:
+  - phrase: impecuniousness
+    substitutions: [poverty, insolvency, destitution]
+
 
 Passive Voice:
 
