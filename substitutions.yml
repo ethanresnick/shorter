@@ -214,6 +214,9 @@ Complicated Words:
   - phrase: impecuniousness
     substitutions: [poverty, insolvency, destitution]
 
+Vague Terms:
+  - phrase: a number of
+  - substitutions: [many, some, a few]
 
 Passive Voice:
 
@@ -231,7 +234,6 @@ Just Bad:
 # important essentials
 # sudden crisis
 
-# <p>1. <strong>a number of</strong>: some, many<br>
 # 2. <strong>afford an opportunity</strong>: allow, let<br>
 # 3. <strong>an appreciable number of</strong>: many<br>
 # 4. <strong>as a means of</strong>: to<br>
