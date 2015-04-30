@@ -161,8 +161,8 @@ Verbose Phrases:
   - phrase: (know|knew) for a fact
     substitutions: [$1]
 
-  - phrase: (your|my|our) lived experiences
-    substitutions: [$1 experiences]
+  - phrase: lived (experiences?)
+    substitutions: [$1]
 
   - phrase: (years?) of age
     substitutions: [$1 old]
@@ -239,7 +239,6 @@ Just Bad:
 # 4. <strong>as a means of</strong>: to<br>
 # 5. <strong>as prescribed by</strong>: in, under<br>
 # 6. <strong>at the present time</strong>: now<br>
-# 7. <strong>by means of</strong>: by, with<br>
 # 8. <strong>comply with</strong>: follow<br>
 # 10. <strong>during the period of</strong>: during<br>
 # 11. <strong>for a period of</strong>: for<br>
