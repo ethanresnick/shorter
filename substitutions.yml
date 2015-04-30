@@ -200,6 +200,9 @@ Verbose Phrases:
   - phrase: the (many|numerous)? ways in which
     substitutions: [how]
 
+  - phrase: by means of
+    substitutions: [by, with, through, using, via]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
