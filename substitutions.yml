@@ -197,6 +197,9 @@ Verbose Phrases:
   - phrase: of importance
     substitutions: [important]
 
+  - phrase: the (many|numerous)? ways in which
+    substitutions: [how]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
