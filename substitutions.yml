@@ -140,6 +140,9 @@ Verbose Phrases:
   - phrase: in (order|an effort) to
     substitutions: [to]
 
+  - phrase: in the amount of
+    substitutions: [amounting to, for, of]
+
   - phrase: It (seems|appears) to me
     substitutions: [I think, I believe, presumably]
 
