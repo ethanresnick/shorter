@@ -206,6 +206,9 @@ Verbose Phrases:
   - phrase: by means of
     substitutions: [by, with, through, using, via]
 
+  - phrase: has a requirement for
+    substitutions: [needs, requires, demands]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
@@ -248,7 +251,6 @@ Just Bad:
 # 8. <strong>comply with</strong>: follow<br>
 # 10. <strong>during the period of</strong>: during<br>
 # 11. <strong>for a period of</strong>: for<br>
-# 12. <strong>has a requirement for</strong>: needs, requires<br>
 # 13. <strong>have an adverse effect on</strong>: hurt, set back<br>
 # 14. <strong>in a timely manner</strong>: on time, promptly<br>
 # 15. <strong>in accordance with</strong>: by, following, per, under<br>
