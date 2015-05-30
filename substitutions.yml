@@ -212,6 +212,9 @@ Verbose Phrases:
   - phrase: has a requirement for
     substitutions: [needs, requires, demands]
 
+  - phrase: assorted mix
+    substitutions: [mix, assortment]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
