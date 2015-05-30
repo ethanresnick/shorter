@@ -118,6 +118,9 @@ Redundencies:
   - phrase: (your|my) personal belongings
     substitutions: [$1 belongings]
 
+  - phrase: (totally|completely|absolutely) necessary
+    substitutions: [necessary]
+
 Verbose Phrases:
   - phrase: until such time as
     substitutions: [until]
