@@ -242,6 +242,9 @@ Just Bad:
   - phrase: it might be (said|argued)
   - substitutions: [critics might argue, opponents might say]
 
+  - phrase: it is a truth universally acknowledged
+  - substitutions: [all acknowledge, all agree, everyone acknowledges, it is true that]
+
 # http://garbl.home.comcast.net/~garbl/stylemanual/phrases.htm
 
 # various differences
