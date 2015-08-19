@@ -221,6 +221,12 @@ Verbose Phrases:
   - phrase: assorted mix
     substitutions: [mix, assortment]
 
+  - phrase: an increase (in|of)
+    substitutions: [more, higher]
+
+  - phrase: a decrease (in|of)
+    substitutions: [less, lower]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
