@@ -188,6 +188,9 @@ Verbose Phrases:
   - phrase: a multitude of
     substitutions: [many]
 
+  - phrase: as a consequence of
+    substitutions: [because of]
+
   - phrase: of significance
     substitutions: [significant]
 
