@@ -121,6 +121,9 @@ Redundencies:
   - phrase: (totally|completely|absolutely) necessary
     substitutions: [necessary]
 
+  - phrase: implicitly (assumed?)
+    substitutions: [$1]
+
 Verbose Phrases:
   - phrase: until such time as
     substitutions: [until]
