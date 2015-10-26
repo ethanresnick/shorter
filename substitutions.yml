@@ -230,6 +230,9 @@ Verbose Phrases:
   - phrase: a decrease (in|of)
     substitutions: [less, lower]
 
+  - phrase: exactly identical
+    substitutions: [identical]
+
 Incorrect Grammar:
   - phrase: (try|be sure) and
     substitutions: [$1 to]
